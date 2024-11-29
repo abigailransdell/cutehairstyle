@@ -1,1 +1,10 @@
-<script type="text/javascript" src="//uyak.eu.org/get/site/js/b9a0060ae658d625654f79a2d04ebba8"></script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : '0fdbc47af3eb047899117f4f205b6c2b',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/0fdbc47af3eb047899117f4f205b6c2b/invoke.js"></script>

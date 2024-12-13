@@ -12,6 +12,7 @@ const {
   Dmca,
   Privacy,
   Feed,
+  Rss,
   SitemapXML,
 } = require("./controllers");
 const app = express();
@@ -29,7 +30,8 @@ app.get("/p/copyright", Copyright);
 app.get("/p/dmca", Dmca);
 app.get("/p/privacy", Privacy);
 app.get("/robots.txt", Robots);
-app.get("/feed", Feed);
+app.get("/feed.xml", Feed);
+app.get("/feed", Rss);
 app.get("/sitemap.xml", SitemapXML);
 app.get("/page/:id(\\d+)", Pagination);
 app.get("/img/placeholder.svg", PlaceHolder);

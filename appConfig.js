@@ -1,10 +1,10 @@
 module.exports = {
-  title: "Cute Hairstyle",
-  tagline: "Free Download Image",
-  description: "Agc is a website auto generate contents.",
-  keywords: "cdom,cdom agc,cdom blog",
-  author: "FL",
+  title: "Coloring Me",
+  tagline: "Coloring Me Free Coloring Page",
+  description: "Coloring Me Free Coloring Pag.",
+  keywords: "coloring,coloringkids,agc,cdom blog",
+  author: "Coloringme.biz.id",
   favicon: "https://pugjs.org/images/favicon.ico",
-  imageCount: 10,
+  imageCount: 20,
   removeBadWords: "porn,nude,sex",
 };

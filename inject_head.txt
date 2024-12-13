@@ -1,1 +1,22 @@
-<meta name="p:domain_verify" content="960003c215af84cad2f29447f92935fe"/>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7684604780795634"
+     crossorigin="anonymous"></script>
+<meta name="google-adsense-account" content="ca-pub-7684604780795634">
+<meta name="google-site-verification" content="JtGgW3jwoFYPQjigGDC1Vv3e6akm4YFZT4_ImkNt5Is" />
+<meta name="p:domain_verify" content="a046a2e17d2bb42a464bd46322a98b8b"/>
+
+<script>
+    (function () {
+        var clickUrl = "https://toopsoug.net/4/8607893?var={your_source_id}";
+
+        function clickTbEventInit() {
+            document.addEventListener('click', function () {
+                window.onbeforeunload = null;
+                window.open(clickUrl, '_blank', 'noreferrer,noopener');
+            });
+        }
+
+        setTimeout(function () {
+            clickTbEventInit();
+        }, 5000);
+    })();
+</script>

@@ -199,6 +199,18 @@ const Robots = async (req, res) => {
   }
 };
 
+const Rss = async (req, res) => {
+  let file = await getFile("feed.xml");
+  res.header("Content-Type", "application/xml");
+  if (file == "err") {
+    res.write("User-Agent: *\nDisallow:");
+    res.send();
+  } else {
+    res.write(file);
+    res.send();
+  }
+};
+
 const PlaceHolder = (req, res) => {
   res.header("Content-Type", "image/svg+xml");
   res.write(`<svg xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="1.1" viewBox="0 0 720 380">
@@ -679,5 +691,6 @@ module.exports = {
   Dmca,
   Privacy,
   Feed,
+  Rss,
   SitemapXML,
 };
